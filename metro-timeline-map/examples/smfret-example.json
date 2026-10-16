@@ -1,0 +1,534 @@
+{
+ "meta": {
+  "verified_through": "2026-10-15",
+  "note": "Selected milestones, not exhaustive.",
+  "title": "Live-Cell smFRET"
+ },
+ "views": {
+  "a": {
+   "name": "Biological",
+   "subtitle": "Where it was measured",
+   "lines": [
+    {
+     "id": "F",
+     "badge": "1",
+     "name": "Foundations",
+     "desc": "Single-molecule fluorescence and smFRET, in vitro",
+     "color": "#224F86"
+    },
+    {
+     "id": "MEM",
+     "badge": "2",
+     "name": "Membrane",
+     "desc": "Receptors and signalling proteins at the cell surface",
+     "color": "#D93A1C"
+    },
+    {
+     "id": "CYT",
+     "badge": "3",
+     "name": "Cytosol",
+     "desc": "Proteins measured inside the cell interior",
+     "color": "#E8730C"
+    },
+    {
+     "id": "BAC",
+     "badge": "4",
+     "name": "Bacteria",
+     "desc": "Molecules measured in live E. coli",
+     "color": "#7E5330"
+    },
+    {
+     "id": "R",
+     "badge": "R",
+     "name": "Reviews",
+     "desc": "Overviews of the field",
+     "color": "#6B7680"
+    }
+   ]
+  },
+  "b": {
+   "name": "Methodological",
+   "subtitle": "How it was measured",
+   "lines": [
+    {
+     "id": "OTH",
+     "badge": "4",
+     "name": "Delivery and standards",
+     "desc": "Loading, dyes and reference samples that other papers build on",
+     "color": "#8C6DAB",
+     "style": "dashed"
+    },
+    {
+     "id": "F",
+     "badge": "1",
+     "name": "Foundations",
+     "desc": "Single-molecule fluorescence and smFRET, in vitro",
+     "color": "#224F86"
+    },
+    {
+     "id": "WF",
+     "badge": "2",
+     "name": "Widefield",
+     "desc": "TIRF and HILO tracking of single molecules in cells",
+     "color": "#D93A1C"
+    },
+    {
+     "id": "CONF",
+     "badge": "3",
+     "name": "Confocal",
+     "desc": "Burst-based smFRET measured in cells",
+     "color": "#00806A"
+    },
+    {
+     "id": "R",
+     "badge": "R",
+     "name": "Reviews",
+     "desc": "Overviews of the field",
+     "color": "#6B7680"
+    }
+   ]
+  }
+ },
+ "stations": [
+  {
+   "id": "dye90",
+   "lines": {
+    "a": [
+     "F"
+    ],
+    "b": [
+     "F"
+    ]
+   },
+   "year": 1990,
+   "label": [
+    "Single dyes",
+    "detected"
+   ],
+   "title": "Single fluorescent dyes detected directly",
+   "cite": "First direct detection of single dye tags, 1990",
+   "text": "Single fluorescent dye molecules were detected directly for the first time. Every later single-molecule fluorescence method, including smFRET, builds on this.",
+   "url": null,
+   "checked": true
+  },
+  {
+   "id": "myo95",
+   "lines": {
+    "a": [
+     "F"
+    ],
+    "b": [
+     "F"
+    ]
+   },
+   "year": 1995,
+   "label": [
+    "Myosin ATPase",
+    "Funatsu et al."
+   ],
+   "title": "ATP turnover by single myosin molecules",
+   "cite": "Funatsu et al., Nature, 1995",
+   "text": "The first biological application of single-molecule fluorescence imaging, in vitro with total internal reflection excitation.",
+   "url": null,
+   "checked": false
+  },
+  {
+   "id": "ha96",
+   "lines": {
+    "a": [
+     "F"
+    ],
+    "b": [
+     "F"
+    ]
+   },
+   "year": 1996,
+   "label": [
+    "First smFRET",
+    "Ha et al."
+   ],
+   "title": "First single-molecule FRET",
+   "cite": "Ha et al., PNAS 93, 6264–6268, 1996",
+   "text": "FRET measured on individual, doubly labelled DNA molecules. It showed that donor–acceptor energy transfer can report distances and fluctuations one molecule at a time.",
+   "url": null,
+   "checked": true
+  },
+  {
+   "id": "sch98",
+   "lines": {
+    "a": [
+     "F",
+     "MEM"
+    ],
+    "b": [
+     "F",
+     "WF"
+    ]
+   },
+   "year": 1998,
+   "label": [
+    "Membrane ligands",
+    "Schütz et al."
+   ],
+   "title": "Ligands on receptors in a membrane",
+   "cite": "Schütz, Trabesinger & Schmidt, Biophys J, 1998",
+   "text": "Single-molecule FRET and colocalization used to watch ligand binding to streptavidin immobilised on phospholipid membranes. Later reviews describe it as the step that opened the way to live-cell experiments.",
+   "url": "https://research.jku.at/en/publications/direct-observation-of-ligand-colocalization-on-individual-recepto/",
+   "checked": false
+  },
+  {
+   "id": "sako00",
+   "lines": {
+    "a": [
+     "MEM"
+    ],
+    "b": [
+     "WF"
+    ]
+   },
+   "year": 2000,
+   "label": [
+    "EGF receptors",
+    "Sako et al."
+   ],
+   "title": "Single molecules imaged in living cells",
+   "cite": "Sako, Minoghchi & Yanagida, Nat Cell Biol 2, 168–172, 2000",
+   "text": "The first single-molecule fluorescence imaging in live cells: fluorescent EGF and EGF receptors followed on the cell surface by total internal reflection microscopy, with FRET used to look at receptor signalling.",
+   "url": "https://www.nature.com/articles/ncb0300_168",
+   "checked": true
+  },
+  {
+   "id": "mur04",
+   "lines": {
+    "a": [
+     "MEM"
+    ],
+    "b": [
+     "WF"
+    ]
+   },
+   "year": 2004,
+   "label": [
+    "Ras activation",
+    "Murakoshi et al."
+   ],
+   "title": "Ras activation on the cell membrane",
+   "cite": "Murakoshi et al., PNAS, 2004",
+   "text": "Single-molecule imaging of Ras activation in living cells, extending the Yanagida group's surface-imaging approach to a signalling protein.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC409916",
+   "checked": false
+  },
+  {
+   "id": "sak10",
+   "lines": {
+    "a": [
+     "MEM",
+     "CYT"
+    ],
+    "b": [
+     "WF"
+    ]
+   },
+   "year": 2010,
+   "label": [
+    "SNARE folding",
+    "Sakon & Weninger"
+   ],
+   "title": "Conformation of individual proteins in live cells",
+   "cite": "Sakon & Weninger, Nat Methods 7, 203–205, 2010",
+   "text": "Recombinant SNARE proteins, site-specifically labelled with donor and acceptor, were microinjected into cultured cells. smFRET combined with single-particle tracking showed single proteins folding into complexes at the cell membrane.",
+   "url": "https://www.nature.com/articles/nmeth.1421",
+   "checked": true,
+   "delivery": "microinjected"
+  },
+  {
+   "id": "cra13",
+   "lines": {
+    "a": [
+     "BAC"
+    ],
+    "b": [
+     "OTH"
+    ]
+   },
+   "year": 2013,
+   "label": [
+    "Electroporation",
+    "Crawford et al."
+   ],
+   "title": "Loading labelled molecules into live E. coli",
+   "cite": "Crawford et al., Biophys J 105, 2439–2450, 2013",
+   "text": "Electroporation introduced dye-labelled DNA and proteins into live bacteria and gave long-lived single-molecule fluorescence, the start of in vivo smFRET in bacteria.",
+   "url": "https://groups.physics.ox.ac.uk/genemachines/Group/paper_2013_crawford_biophysJ.pdf",
+   "checked": true,
+   "delivery": "electroporated"
+  },
+  {
+   "id": "plo14",
+   "lines": {
+    "a": [
+     "BAC"
+    ],
+    "b": [
+     "OTH"
+    ]
+   },
+   "year": 2014,
+   "label": [
+    "In-cell dyes",
+    "Plochowietz et al."
+   ],
+   "title": "Which dyes survive inside a cell",
+   "cite": "Plochowietz, Crawford & Kapanidis, Phys Chem Chem Phys 16, 12688, 2014",
+   "text": "Several donor and acceptor dyes were compared in live E. coli. Cy3B, ATTO 647 and ATTO 647N performed best for brightness and photostability.",
+   "url": "https://pubs.rsc.org/en/content/articlelanding/2014/cp/c4cp00995a",
+   "checked": true,
+   "delivery": "electroporated"
+  },
+  {
+   "id": "kon15",
+   "lines": {
+    "a": [
+     "CYT"
+    ],
+    "b": [
+     "CONF"
+    ]
+   },
+   "year": 2015,
+   "label": [
+    "Confocal in cells",
+    "König et al."
+   ],
+   "title": "Single-molecule spectroscopy in live eukaryotic cells",
+   "cite": "König et al., Nat Methods 12, 773–779, 2015",
+   "text": "Confocal smFRET in live mammalian cells with improved delivery and cell culture conditions, probing dynamics from milliseconds to nanoseconds. Applications included an intrinsically disordered protein, in-cell cold denaturation and protein folding.",
+   "url": "https://link.springer.com/10.1038/nmeth.3475",
+   "checked": true
+  },
+  {
+   "id": "sus15",
+   "lines": {
+    "a": [
+     "R"
+    ],
+    "b": [
+     "R"
+    ]
+   },
+   "year": 2015,
+   "label": [
+    "Ruler to the jungle",
+    "Sustarsic &",
+    "Kapanidis"
+   ],
+   "title": "Taking the ruler to the jungle",
+   "cite": "Sustarsic & Kapanidis, Curr Opin Struct Biol, 2015",
+   "text": "Review of smFRET for biomolecular structure and dynamics in live cells, covering delivery, labelling and the open methodological problems.",
+   "url": "https://www.researchgate.net/publication/281167360_Taking_the_ruler_to_the_jungle_Single-molecule_FRET_for_understanding_biomolecular_structure_and_dynamics_in_live_cells",
+   "checked": true
+  },
+  {
+   "id": "plo16",
+   "lines": {
+    "a": [
+     "BAC"
+    ],
+    "b": [
+     "OTH"
+    ]
+   },
+   "year": 2016,
+   "label": [
+    "End-sealed DNA",
+    "Plochowietz et al."
+   ],
+   "title": "Stable DNA rulers for in vivo smFRET",
+   "cite": "Plochowietz, El-Sagheer, Brown & Kapanidis, Chem Sci 7, 2016",
+   "text": "DNA standards with chemically sealed ends survive inside live bacteria and give smFRET signals of about 10 s. Multi-dye versions extend fluorescence signals to about 1 min, giving a quality check for in vivo workflows.",
+   "url": "https://pubs.rsc.org/en/content/articlelanding/2016/sc/c6sc00639f",
+   "checked": true,
+   "delivery": "electroporated"
+  },
+  {
+   "id": "hel18",
+   "lines": {
+    "a": [
+     "F"
+    ],
+    "b": [
+     "F"
+    ]
+   },
+   "year": 2018,
+   "label": [
+    "Benchmark study",
+    "Hellenkamp et al."
+   ],
+   "title": "Multi-laboratory smFRET benchmark",
+   "cite": "Hellenkamp et al., Nat Methods, 2018",
+   "text": "Precision and accuracy of smFRET measured across many laboratories, in vitro. It sets the reference level that live-cell measurements are compared against.",
+   "url": "https://research.uni-luebeck.de/en/publications/precision-and-accuracy-of-single-molecule-fret-measurementsa-mult/",
+   "checked": true
+  },
+  {
+   "id": "ler18",
+   "lines": {
+    "a": [
+     "R"
+    ],
+    "b": [
+     "R"
+    ]
+   },
+   "year": 2018,
+   "label": [
+    "Two decades",
+    "Lerner et al."
+   ],
+   "title": "Two decades of smFRET",
+   "cite": "Lerner et al., Science 359, 2018",
+   "text": "Review of 22 years of smFRET in structural and molecular biology. It notes that most work was in vitro, with live-cell use emerging.",
+   "url": "https://www.science.org/doi/10.1126/science.aan1133",
+   "checked": true
+  },
+  {
+   "id": "ash21",
+   "lines": {
+    "a": [
+     "MEM"
+    ],
+    "b": [
+     "WF"
+    ]
+   },
+   "year": 2021,
+   "label": [
+    "mGluR2 in cells",
+    "Asher et al."
+   ],
+   "title": "smFRET of GPCR dimers in living cells",
+   "cite": "Asher et al., Nat Methods, 2021",
+   "text": "Wide-field smFRET with single-particle tracking followed assembly and conformational dynamics of metabotropic glutamate receptors in the plasma membrane. A commentary calls it the first view of membrane-protein structural dynamics (mGluR2) in living cells.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8232828",
+   "checked": true,
+   "delivery": "expressed"
+  },
+  {
+   "id": "smc23",
+   "lines": {
+    "a": [
+     "MEM"
+    ],
+    "b": [
+     "WF"
+    ]
+   },
+   "year": 2023,
+   "label": [
+    "Auto-analysis",
+    "Frontiers 2023"
+   ],
+   "title": "Automated analysis of live-cell smFRET",
+   "cite": "Frontiers in Cell and Developmental Biology, 2023",
+   "text": "An automated pipeline for live-cell smFRET trajectories, built on smCellFRET and machine vision, tested on mGluR2 with an LDL-TM monomer as negative control.",
+   "url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2023.1184077/full",
+   "checked": true
+  },
+  {
+   "id": "net24",
+   "lines": {
+    "a": [
+     "R"
+    ],
+    "b": [
+     "R"
+    ]
+   },
+   "year": 2024,
+   "label": [
+    "Nettels & Schuler",
+    "Nat Rev Phys"
+   ],
+   "title": "smFRET for nanoscale biomolecular dynamics",
+   "cite": "Nettels & Schuler, Nature Reviews Physics 6, 587–605, 2024",
+   "text": "State-of-the-art review covering time resolution, nonequilibrium dynamics and the physics-based developments expected to extend the method.",
+   "url": "https://schuler.bioc.uzh.ch/wp-content/uploads/2024/10/nettels24schuler.pdf",
+   "checked": true
+  },
+  {
+   "id": "ttb25",
+   "lines": {
+    "a": [
+     "CYT"
+    ],
+    "b": [
+     "WF"
+    ]
+   },
+   "year": 2025.7,
+   "label": [
+    "FRET-TTB",
+    "Anandamurugan et al."
+   ],
+   "title": "Tracking transfected proteins by smFRET",
+   "cite": "Anandamurugan et al., Biophys J, 2025 (preprint 2023)",
+   "text": "Long-term smFRET of the cytosolic chaperone Hsp90, using HILO microscopy, ALEX-based detection, dual-channel tracking and protein transfection. End-sealed DNA standards validated the method against in vitro data.",
+   "url": "https://www.cell.com/biophysj/fulltext/S0006-3495(25)00604-6",
+   "checked": true,
+   "delivery": "transfected"
+  },
+  {
+   "id": "raf25",
+   "lines": {
+    "a": [
+     "CYT"
+    ],
+    "b": [
+     "CONF"
+    ]
+   },
+   "year": 2025.95,
+   "label": [
+    "RAF in cells",
+    "Frontiers 2025"
+   ],
+   "title": "In-cell smFRET of cytosolic RAF proteins",
+   "cite": "Frontiers in Molecular Biosciences, 2025",
+   "text": "Confocal ALEX-smFRET in cells to read structural states and kinetics of CRAF and BRAF in their native environment. CRAF showed three structural states; wild-type BRAF mostly one.",
+   "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2025.1718018/full",
+   "checked": true,
+   "delivery": "expressed"
+  },
+  {
+   "id": "met26",
+   "lines": {
+    "a": [
+     "MEM"
+    ],
+    "b": [
+     "WF"
+    ]
+   },
+   "year": 2026.4,
+   "label": [
+    "MET receptors",
+    "Li et al."
+   ],
+   "title": "FRET-tracking of MET receptor activation",
+   "cite": "Li et al., Small, 2026",
+   "text": "smFRET recovery after photobleaching, combined with single-particle tracking, detected ligand-induced dimerisation and dimer–monomer transitions of the MET receptor in living cells.",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1002/smll.202507115",
+   "checked": true
+  }
+ ],
+ "links": [
+  {
+   "from": "plo16",
+   "to": "ttb25",
+   "checked": false,
+   "note": "FRET-TTB validated its method with end-sealed DNA, the standard type described in 2016. That the paper cites the 2016 work was not confirmed.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13507326"
+  }
+ ]
+}
